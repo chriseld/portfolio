@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(101, 139, 139);
+    font-size: 125%;
+}
+
+img {
+    width: 80%;
+}
+
+header {
+    height: 35vh;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+    background-image: url("../img/header-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+#title {
+    padding-top: 15vh;
+}
+
+nav {
+    height: 5vh;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+a {
+    padding-top: 2vh;
+    text-decoration: none;
+    color: rgb(2, 23, 44);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: rgb(59, 44, 6);
+}
+
+main {
+    display: flex;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 15px 25px;
+    margin: 15px 25px;
+}
+
+footer {
+    height: 5vh;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .card {
+        margin: 1vh 0;
+        padding: 2vh 5vh;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #myPic {
+        width: 400px;
+    }
+}
