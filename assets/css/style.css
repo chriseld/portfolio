@@ -1,5 +1,5 @@
 body {
-    background-color: #658b8b;
+    background-color: #bcc9c9;
     font-size: 125%;
 }
 
@@ -13,11 +13,14 @@ header {
     color: white;
     text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
     background-image: url("../img/header-1.png");
+    /* border: 2px solid black;
+    border-radius: 16px; */
+    border-radius: 20px;
+    background: #bcc9c9;
+    box-shadow:  7px 7px 7px #98a3a3, -7px -7px 7px #e0efef;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid black;
-    border-radius: 16px;
 }
 
 #title {
@@ -26,26 +29,26 @@ header {
 
 nav {
     height: 5vh;
-    margin-top: 2vh;
+    margin-top: 4vh;
     text-align: center;
 }
 
 a {
     padding: 5px;
-    margin: 5px 10px;
+    margin: 25px 10px;
     text-decoration: none;
     color: rgb(2, 23, 44);
     font-weight: bolder;
-    border-radius: 45px;
-    background: linear-gradient(145deg, #5b7d7d, #6c9595);
-    box-shadow:  18px 18px 36px #4e6b6b, -18px -18px 36px #7cabab;
-    background-color: #90b6b6;
+    border-radius: 90px;
+    background: linear-gradient(145deg, #a9b5b5, #c9d7d7);
+    box-shadow:  5px 5px 3px #7a8383, -5px -5px 3px #feffff;
+    background-color: #bcc9c9;
 }
 
 a:hover {
-    border-radius: 45px;
-    background: #658b8b;
-    box-shadow: inset 18px 18px 36px #4e6b6b, inset -18px -18px 36px #7cabab;
+    border-radius: 90px;
+    background: linear-gradient(145deg, #c9d7d7, #a9b5b5);
+    box-shadow:  5px 5px 3px #7a8383, -5px -5px 3px #feffff;
 }
 
 main {
@@ -55,19 +58,23 @@ main {
 }
 
 .card {
-    /* border: 2px solid black;
-    border-radius: 16px; */
     padding: 15px 25px;
-    margin: 15px 25px;
-    border-radius: 45px;
-    background: #658b8b;
-    box-shadow:  20px 20px 60px #567676, -20px -20px 60px #74a0a0;
+    margin: 30px 25px;
+    border-radius: 20px;
+    background: #bcc9c9;
+    box-shadow:  7px 7px 7px #98a3a3, -7px -7px 7px #e0efef;
     width: 40%;
 }
 
 .card a {
     display: block;
     text-align: center;
+}
+
+.card img {
+    border-radius: 15px;
+    background: #808080;
+    box-shadow:  5px 5px 5px #333333, -5px -5px 5px #cdcdcd;
 }
 
 footer {
